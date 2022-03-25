@@ -23,9 +23,9 @@ class SecondActivity : AppCompatActivity() {
         setContentView(R.layout.activity_second)
 
         initUI()
-        musicF = MediaPlayer.create(this,R.raw.openinga)
+        musicF = MediaPlayer.create(this,R.raw.mfondo)
         musicC = MediaPlayer.create(this,R.raw.aplausos)
-        musicI = MediaPlayer.create(this,R.raw.errors)
+        musicI = MediaPlayer.create(this,R.raw.errorn)
         playMusic()
         generaNum()
 

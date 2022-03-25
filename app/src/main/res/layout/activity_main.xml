@@ -12,8 +12,12 @@
         android:layout_width="410dp"
         android:layout_height="346dp"
         android:background="#319C25"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="40dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -56,6 +60,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="355dp"
         android:layout_height="187dp"
         android:orientation="horizontal"
@@ -70,9 +75,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:background="#FAF6F6"
+            android:background="@color/purple_700"
             android:backgroundTint="#AF4040"
-            android:text="Jugar" />
+            android:text="Jugar"
+            android:textColor="#F9F9FA" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

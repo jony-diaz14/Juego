@@ -7,11 +7,23 @@
     android:background="#7685BC"
     tools:context=".SecondActivity">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        app:layout_constraintBottom_toTopOf="@+id/usuarioR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pregunta" />
+
     <EditText
         android:id="@+id/usuarioR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autoText="false"
+        android:backgroundTint="#000000"
         android:ems="10"
         android:hint="10"
         android:inputType="number"
@@ -22,7 +34,7 @@
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.31" />
+        app:layout_constraintVertical_bias="0.455" />
 
     <Button
         android:id="@+id/Verificar"
